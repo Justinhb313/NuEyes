@@ -1,0 +1,7 @@
+<div class="section">
+    {% for section in site.section %}
+    <img class="section_pic" src="{{ section.image | relative_url }}" alt="Side image">
+    <h2 class="title">{{ section.title }}</h2>
+    <p class="info">{{ section.info }}</p>
+    {% endfor %}
+</div>

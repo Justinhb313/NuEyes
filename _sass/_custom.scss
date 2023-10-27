@@ -1,3 +1,17 @@
 // Custom styling
 // 
 // Include the file _sass/_custom.scss to your site to add custom styling
+
+.section{
+    font-family: $font-family-base;
+}
+.section .title{
+    color: #2B3F72;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section .info{
+    color: #2B3F72;
+    font-size: 1.5rem;
+}
