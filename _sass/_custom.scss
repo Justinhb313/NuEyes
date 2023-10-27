@@ -4,6 +4,15 @@
 
 .section{
     font-family: $font-family-base;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.section_text{
+    width: 45%;
+    margin-top: 3rem;
 }
 .section .title{
     color: #2B3F72;
