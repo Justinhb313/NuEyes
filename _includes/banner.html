@@ -1,0 +1,22 @@
+{% for banner in site.banner %}
+<div class="banner">
+    {% if banner.right %}
+        <div class="banner_text">
+            <h2 class="title">{{ banner.title }}</h2>
+            <p class="info">{{ banner.info }}</p>
+        </div>
+        <img class="banner_pic" src="{{ banner.right | relative_url }}" alt="Side image">
+    {% elsif banner.left %}
+        <img class="banner_pic" src="{{ banner.left | relative_url }}" alt="Side image">
+        <div class="banner_text">
+            <h2 class="title">{{ banner.title }}</h2>
+            <p class="info">{{ banner.info }}</p>
+        </div>
+    {% else %}
+        <div class="banner_hero" style="background-image: url('{{ banner.background | relative_url }}');">
+            <h2 class="title">{{ banner.title }}</h2>
+            <p class="info">{{ banner.info }}</p>
+        </div>
+    {% endif %}
+</div>
+{% endfor %}

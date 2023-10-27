@@ -5,4 +5,4 @@ description:
 background: /assets/theme/images/gaman-alice-tescud904NY-unsplash.jpg
 permalink: /
 ---
-{% include section.html %}
+{% include banner.html %}
