@@ -52,3 +52,6 @@ defaults:
       type: posts
     values:
       permalink: "/blog/:slug/"   # Use /blog/{filename}/ as permalink for all posts
+
+collections:
+  - section:
