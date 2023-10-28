@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Success is a path for all
+title: Success is a journey for all
 description: 
 background: /assets/theme/images/gaman-alice-tescud904NY-unsplash.jpg
 permalink: /
