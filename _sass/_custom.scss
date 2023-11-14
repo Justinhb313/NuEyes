@@ -7,19 +7,35 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;   
+    margin-bottom: 2rem;
+    position: relative;
 }
 
 .banner_hero{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    width: 100%;
+    filter: blur(4px);
 }
+
+.hero_text{
+    text-align: center;
+    width: 45%;
+    margin-top: 3rem;
+    position: relative;
+    right: 50%;
+}
+
 
 .banner_text{
     width: 45%;
     margin-top: 3rem;
 }
+
+.banner_pic{
+    border-radius: 1rem;
+}
+
 .banner .title{
     color: #2B3F72;
     font-size: 3rem;
@@ -29,4 +45,10 @@
 .banner .info{
     color: #2B3F72;
     font-size: 1.5rem;
+}
+
+.btn{
+    color: #FAF9F6;
+    background-color: #FF7F22;
+    border-radius: 20px;
 }
