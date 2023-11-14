@@ -56,3 +56,5 @@ defaults:
 collections:
   banner:
     output: true
+  tile:
+    output: true

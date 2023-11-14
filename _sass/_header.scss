@@ -20,7 +20,14 @@
   }
 
   &.bg-no-image {
-    background-color: $secondary;
+    padding: 1rem 2rem;
+    color: #2B3F72;
+  }
+
+  h1 {
+    $header-h1: 7rem;
+    font-size: $header-h1;
+    font-weight: 900;
   }
 
   // Overlay
@@ -44,7 +51,7 @@
     }
   }
   
-  h1 {
+  &.bg-image h1 {
     $header-h1: 7rem;
     font-size: $header-h1;
     font-weight: 900;

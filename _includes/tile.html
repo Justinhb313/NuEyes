@@ -1,0 +1,18 @@
+{% for tile in site.tile %}
+<div class="tile">
+    <a href="#">
+        <img class="tile-img-top" src="{{ tile.background | relative_url }}" alt="Background image">
+    </a>
+    <div class="tile-body position-relative">
+        <h2 class="tile-title">
+            <a class="stretched-link" href="{{ tile.title | relative_url }}">{{ tile.title }}</a>
+        </h2>
+        <div class="tile-text">
+            <a href="#">
+                <p>{{ tile.info | markdownify | strip_html | truncatewords: 20 }}</p>
+            </a>
+        </div>
+        <button type="button" class="btn">Learn More</button>
+    </div>
+</div>
+{% endfor %}
