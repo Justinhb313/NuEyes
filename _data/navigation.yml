@@ -2,12 +2,10 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: About
-  href: /about/
-- text: Team
-  href: /team/
-- text: Blog
-  href: /blog/
+- text: Who We Are
+  href: /WWA/
+- text: What We Do
+  href: /wwd/
 - text: Documentation
   menu: # Dropdown menu (one level deep only)
   - text: Installation
@@ -19,6 +17,4 @@
   - text: "Dropdown header" # Title for block of menu items
   - text: Page with custom navigation
     href: /docs/custom-navigation/
-- text: GitHub
-  href: https://github.com/peterdesmet/petridish/
-  new_window: true
+
