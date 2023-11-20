@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Success is a journey for all
+title: Providing Expert Healthcare Information Technology Consulting Services
 description: 
 background: /assets/theme/images/gaman-alice-tescud904NY-unsplash.jpg
 permalink: /

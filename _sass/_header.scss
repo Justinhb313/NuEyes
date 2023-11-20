@@ -28,7 +28,7 @@
   h1 {
     $header-h1: 7rem;
     font-size: $header-h1;
-    font-weight: 900;
+    font-weight: 800;
   }
 
   // Overlay
@@ -111,4 +111,8 @@
       text-decoration: none;
     }
   }
+}
+
+header div.col-lg-10{
+  width: 100%;
 }

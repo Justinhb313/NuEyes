@@ -32,10 +32,6 @@
     margin-top: 3rem;
 }
 
-.banner_pic{
-    border-radius: 1rem;
-}
-
 .banner .title{
     color: #2B3F72;
     font-size: 3rem;
@@ -50,7 +46,6 @@
 .btn{
     color: #FAF9F6;
     background-color: #FF7F22;
-    border-radius: 20px;
 }
 
 .flow{
@@ -76,6 +71,12 @@
         margin-top: 1rem;
     }
 
+    .tile-text{
+      a{
+        color: #335FAC;
+      }
+    }
+
     .tile-title {
       a {
         text-decoration: none;
@@ -86,7 +87,6 @@
     .tile-img-top {
       height: 300px;
       object-fit: fill;
-      border-radius: 1rem;
       margin-bottom: 1rem;
     }
   
@@ -114,4 +114,8 @@
         }
       }
     }
-  }  
+}
+
+.wave{
+  padding-top: 1.7rem;
+}

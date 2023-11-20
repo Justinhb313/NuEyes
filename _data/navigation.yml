@@ -1,11 +1,11 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
-  href: /
 - text: Who We Are
   href: /WWA/
 - text: What We Do
   href: /wwd/
+- text: Contact
+  href: /contact/
 - text: Documentation
   menu: # Dropdown menu (one level deep only)
   - text: Installation
