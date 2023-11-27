@@ -6,15 +6,4 @@
   href: /wwd/
 - text: Contact
   href: /contact/
-- text: Documentation
-  menu: # Dropdown menu (one level deep only)
-  - text: Installation
-    href: /docs/installation/
-  - text: Configuration
-    href: /docs/configuration/
-  - href: /docs/markdown/ # Undefined "text" will automatically get the title of the page at "href" (here "Markdown")
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Dropdown header" # Title for block of menu items
-  - text: Page with custom navigation
-    href: /docs/custom-navigation/
 

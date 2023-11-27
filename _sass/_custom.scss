@@ -138,6 +138,14 @@
     }
   }
 
+  .tile-title-no-img {
+    a {
+      text-decoration: none;
+      color: #2B3F72;
+    }
+    border-bottom: 2px solid #335FAC;
+  }
+
   .tile-img-top {
     height: 200px;
     object-fit: cover;
