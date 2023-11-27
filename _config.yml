@@ -58,3 +58,5 @@ collections:
     output: true
   tile:
     output: true
+  homeTile:
+    output: true

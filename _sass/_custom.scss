@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     position: relative;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .flow{
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 .tiles {
@@ -58,7 +58,6 @@
     div[class*="col"] {
       display: flex;
       align-items: stretch;
-      margin-top: 4rem;
     }
   }
 
@@ -114,6 +113,62 @@
         }
       }
     }
+}
+
+.homeTile {
+  margin-top: -4rem;
+  margin-bottom: 5rem;
+  min-width: 100%; // Use allowed width even if content is smaller
+
+  .tile-body{
+      margin-top: 1rem;
+  }
+
+  .tile-text{
+
+    p{
+      color: #335FAC;
+    }
+  }
+
+  .tile-title {
+    a {
+      text-decoration: none;
+      color: #2B3F72;
+    }
+  }
+
+  .tile-img-top {
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    padding-left: 18%;
+  }
+
+  .tile-subtitle {
+    color: $gray-600;
+    margin-bottom: 0.5rem;
+  }
+
+  .tile-footer {
+    background: inherit;
+    border-top: none;
+
+    // Smaller badge then the one defined in _header.scss
+    .badge {
+      border: 1px solid $link-color;
+      color: $link-color;
+      font-family: $font-family-base;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover,
+      &:focus {
+        border: 1px solid $link-hover-color;
+        color: $link-hover-color;
+      }
+    }
+  }
 }
 
 .wave{

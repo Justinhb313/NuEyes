@@ -1,0 +1,13 @@
+<div class="homeTile">
+    <a href="wwd/">
+        <img class="tile-img-top" src="{{ homeTile.background | relative_url }}" alt="Background image">
+    </a>
+    <div class="tile-body position-relative">
+        <h2 class="tile-title">
+            <a class="stretched-link" href="{{ homeTile.url | relative_url }}">{{ homeTile.title }}</a>
+        </h2>
+        <div class="tile-text">
+            <p>{{ homeTile.info | markdownify | strip_html }}</p>
+        </div>
+    </div>
+</div>
