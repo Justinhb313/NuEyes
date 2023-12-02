@@ -1,6 +1,6 @@
 {% for tile in site.tile %}
 <div class="tile">
-    <a href="#">
+    <a href="{{ tile.url | relative_url }}">
         <img class="tile-img-top" src="{{ tile.background | relative_url }}" alt="Background image">
     </a>
     <div class="tile-body position-relative">

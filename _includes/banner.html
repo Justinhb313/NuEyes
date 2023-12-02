@@ -4,7 +4,9 @@
         <div class="banner_text">
             <h2 class="title">{{ banner.title }}</h2>
             <p class="info">{{ banner.info }}</p>
-            <button type="button" class="btn">Learn More</button>
+            <a href="wwd/">
+                <button type="button" class="btn">Learn More</button>
+            </a>
         </div>
         <img class="banner_pic" src="{{ banner.right | relative_url }}" alt="Side image">
     {% elsif banner.left %}
@@ -12,7 +14,9 @@
         <div class="banner_text">
             <h2 class="title">{{ banner.title }}</h2>
             <p class="info">{{ banner.info }}</p>
-            <button type="button" class="btn">Learn More</button>
+            <a href="wwa/">
+                <button type="button" class="btn">Learn More</button>
+            </a>        
         </div>
     {% else %}
         <div class="banner_hero" style="background-image: url('{{ banner.background | relative_url }}');"></div>

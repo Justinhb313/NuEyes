@@ -5,7 +5,7 @@
         </a>
         <div class="tile-body position-relative">
             <h2 class="tile-title">
-                <a class="stretched-link" href="{{ homeTile.url | relative_url }}">{{ homeTile.title }}</a>
+                {{ homeTile.title }}
             </h2>
             <div class="tile-text">
                 <p>{{ homeTile.info | markdownify | strip_html }}</p>
@@ -14,7 +14,7 @@
     {% else %}
         <div class="tile-body position-relative">
             <h2 class="tile-title-no-img">
-                <a class="stretched-link" href="{{ homeTile.url | relative_url }}">{{ homeTile.title }}</a>
+                {{ homeTile.title }}
             </h2>
             <div class="tile-text">
                 <p>{{ homeTile.info | markdownify | strip_html }}</p>
